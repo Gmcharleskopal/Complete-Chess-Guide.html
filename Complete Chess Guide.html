@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chess Guide</title>
+<style>
+  body {
+    background-color: rgb(219, 174, 114);
+    font-family: 'Times New Roman', serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(177, 56, 0);
+    font-size: 45px;
+  }
+
+  p {
+    color: rgb(56, 31, 21);
+    font-size: 30px;
+    margin: 10px 0;
+  }
+
+  hr {
+    border: none;
+    height: 6px;
+    width: 100%;
+    margin: 40px auto;
+    background: linear-gradient(to right, #3b1c0a, #d4af37, #3b1c0a);
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .container, .pieces-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px 0;
+  }
+
+  .setup-piece {
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .setup-piece:hover {
+    transform: scale(1.23);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .setup-piece img {
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .setup-piece h3 {
+    color: rgb(121, 34, 0);
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .setup-piece p {
+    font-size: 18px;
+    color: rgb(56, 31, 21);
+    margin-top: 5px;
+  }
+
+ 
+  table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  th, td {
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 25px;
+  }
+
+  th {
+    background-color: rgb(200, 200, 200);
+  }
+</style>
+</head>
+<body>
+
+<h1>A Simple Chess Guide</h1>
+<p>By: Gm Charles Justin B. Bandola</p>
+<p>______________________________________________________________</p>
+<p>This is a basic guide towards a better playing experience.</p>
+<hr>
+
+<h2 style="color:rgb(121,34,0);font-size: 39px;">How to Set Up a Chess Board</h2>
+<p style="font-size: 30px; color:rgb(56,31,21); width: 70%; margin: 0 auto;">
+Make sure the bottom-right square is a light square, same as the top left square.
+</p>
+
+<div class="container">
+
+  <div class="setup-piece">
+    <img src="cheatsheet.3.png" alt="Pawnsing">
+    <h3>Pawns</h3>
+    <p>Fill the entire second rank.</p>
+    </div>
+  <div class="setup-piece">
+    <img src="cheatsheet.4.jpg" alt="Rooksing">
+    <h3>Rooks</h3>
+    <p>Placed on the corners of the board.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheet.5.png" alt="Knightsing">
+    <h3>Knights</h3>
+    <p>Next to the rooks.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheet.1.png" alt="Bishopsing">
+    <h3>Bishops</h3>
+    <p>Beside the knights.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheet.queen.png" alt="Queening">
+    <h3>Queen</h3>
+    <p>Goes on her own square color.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetkups.png" alt="Kingina">
+    <h3>King</h3>
+    <p>Placed next to the queen.</p>
+  </div>
+</div>
+
+<hr>
+
+
+<h2 style="color:rgb(121,34,0); font-size: 39px;">Understand How Each Chess Piece Moves</h2>
+
+<div class="pieces-container">
+  <div class="setup-piece">
+    <img src="cheatsheetorigpawn1.png" alt="Pawnngmamamo">
+    <h3>Pawn</h3>
+    <p>Moves forward one square (two on first move). Captures diagonally.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetorigknight1.png" alt="Knight and shining armor">
+    <h3>Knight</h3>
+    <p>Moves in an “L” shape and can jump over other pieces.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetorigbishop1.png" alt="pari">
+    <h3>Bishop</h3>
+    <p>Moves diagonally.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetorigrook1.png" alt="rock">
+    <h3>Rook</h3>
+    <p>Moves vertically or horizontally.</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetorigqueen1.png" alt="Queen:bohemian rhapsody">
+    <h3>Queen</h3>
+    <p>Can move horizontally, vertically, or diagonally,the most powerful piece like a rook and bishop together!</p>
+  </div>
+
+  <div class="setup-piece">
+    <img src="cheatsheetorigking1.png" alt="Kingkong">
+    <h3>King</h3>
+    <p>Moves one square in any direction. Keep it protected!</p>
+  </div>
+</div>
+
+<hr>
+
+<h2 style="color:rgb(121,34,0); font-size: 39px;">Special Chess Rules</h2>
+<ul style="font-size: 25px; color: rgb(56,31,21); text-align: left; width: 60%; margin: 0 auto;">
+  <li><strong>Castling:</strong> Move the king two squares toward a rook, then move that rook next to the king.</li><br>
+  <li><strong>En Passant:</strong> A pawn capturing move that happens immediately after a pawn advances two squares.</li><br>
+  <li><strong>Pawn Promotion:</strong> When a pawn reaches the far end, it becomes a queen, rook, bishop, or knight.</li><br>
+  <li><strong>Check & Checkmate:</strong> Check means your king is under attack; checkmate means the game is over.</li><br>
+</ul>
+
+<h2 id="tips" style="font-size: 33px; color:rgb(121, 34, 0);">Basic Chess Principles You Must Know</h2>
+<ul style="font-size: 25px; color: rgb(56,31,21); text-align: left; width: 60%; margin: 0 auto;">
+  <li>Control the center early with your pawns.</li><br>
+  <li>Develop your pieces before moving the same one twice.</li><br>
+  <li>Castle early to protect your king.</li><br>
+  <li>Always check what your opponent is planning.</li><br>
+  <li>Think twice before you move — one blunder can end the game.</li><br>
+</ul>
+
+
+<hr>
+
+<h2 style="font-size: 33px; color:rgb(121,34,0);">Point System for Each Piece</h2>
+<table>
+  <tr><th>King</th><td>∞</td></tr>
+  <tr><th>Queen</th><td>9</td></tr>
+  <tr><th>Rooks</th><td>5</td></tr>
+  <tr><th>Bishops</th><td>3</td></tr>
+  <tr><th>Knights</th><td>3</td></tr>
+  <tr><th>Pawns</th><td>1</td></tr>
+</table>
+<hr>
+
+<h2 style="color:rgb(121,34,0); font-size: 39px;">Famous Chess Openings</h2>
+
+<p style="font-size: 25px; color:rgb(56,31,21); width: 70%; margin: 0 auto;">
+Here are the few openings that i love using:
+</p>
+
+<div style="width: 60%; margin: 30px auto; text-align: left; font-size: 25px; color: rgb(56,31,21); line-height: 1.6;">
+  <p><strong>Italian Game:</strong> 1.e4 e5 2.Nf3 Nc6 3.Bc4 - Focuses on fast development and center control.</p>
+  <p><strong>King’s Gambit:</strong> 1.e4 e5 2.f4 - A daring opening offering a pawn for quick attack chances.</p>
+  <p><strong>Sicilian Defense:</strong> 1.e4 c5 - A powerful counterattack setup for Black.</p>
+  <p><strong>Queen’s Gambit:</strong> 1.d4 d5 2.c4 - White offers a pawn to gain control of the center.</p>
+</div>
+
+
+<h2 style="color:rgb(121,34,0); font-size: 39px;">Understanding Chess Notation</h2>
+
+<p style="font-size: 25px; color:rgb(56,31,21); width: 70%; margin: 0 auto;">
+Chess notation is a simple way to record and communicate chess moves. It helps you study games and share strategies with others.  
+</p>
+
+<div style="width: 70%; margin: 30px auto; text-align: left; font-size: 25px; color: rgb(56,31,21); line-height: 1.5;">
+  <p><strong>Files (columns):</strong> labeled a to h from left to right.</p>
+  <p><strong>Ranks (rows):</strong> numbered 1 to 8 from bottom (White’s side) to top.</p>
+  <p><strong>Each square</strong> is named by combining its file and rank</p>
+</div>
+
+<h3 style="color:rgb(121,34,0); font-size: 32px;">Piece Symbols</h3>
+<table style="margin: 0 auto; border-collapse: collapse; width: 50%;">
+  <tr><th>Piece</th><th>Symbol</th></tr>
+  <tr><td>King</td><td>K</td></tr>
+  <tr><td>Queen</td><td>Q</td></tr>
+  <tr><td>Rook</td><td>R</td></tr>
+  <tr><td>Bishop</td><td>B</td></tr>
+  <tr><td>Knight</td><td>N</td></tr>
+  <tr><td>Pawn</td><td>(no letter, just the square)</td></tr>
+</table>
+
+<h3 style="color:rgb(121,34,0); font-size: 32px; margin-top: 40px;">Examples of Moves</h3>
+<ul style="font-size: 25px; color: rgb(56,31,21); text-align: left; width: 60%; margin: 0 auto;">
+  <li><b>e4</b> : Pawn moves to e4.</li><br>
+  <li><b>Nf3</b> : Knight moves to f3.</li><br>
+  <li><b>Bc4</b> : Bishop moves to c4.</li><br>
+  <li><b>O-O</b> : Kingside castling.</li><br>
+  <li><b>O-O-O</b> : Queenside castling.</li><br>
+  <li><b>Qxd5</b> : Queen captures a piece on d5.</li><br>
+  <li><b>e8=Q</b> : Pawn promotes to a Queen on e8.</li><br>
+  <li><b>+ :</b> Check </li><br>
+  <li><b># :</b> Checkmate.</li>
+</ul>
+
+<h3 style="color:rgb(121,34,0); font-size: 32px; margin-top: 40px;">Sample Game Notation</h3>
+<p style="font-size: 25px; color: rgb(56,31,21); width: 70%; margin: 0 auto;">
+here's how notation works(from my recent game):
+</p>
+<div style="background-color: rgba(235, 227, 227, 0.329); border: 2px solid black; border-radius: 10px; width: 50%; margin: 20px auto; padding: 15px; font-size: 24px; color: rgb(56,31,21); text-align: left;">
+1. e4 e5<br>
+2. Nf3 Nc6<br>
+3. Bc4 Bc5<br>
+4. c3 Nf6<br>
+5. d4 exd4<br>
+6. cxd4 Bb4+<br>
+</div>
+
+<p style="font-size: 24px; color: rgb(56,31,21); width: 70%; margin: 20px auto;">
+This notation lets you replay and analyze any chess game move by move.  
+</p>
+
+
+<hr>
+
+
+<footer style="font-size: 20px; color: rgb(56,31,21); margin-top: 30px;">
+  <p>“Every chess master was once a beginner.” – Irving Chernev</p>
+  <p>© 2025 Chess Guide by GM Charles Justin B. Bandola</p>
+       <img src="ongoykopal.png" >
+</footer>
+
+<audio id="hover-sound" src="Rublux.mp3" preload="auto"></audio>
+<script>
+const sound = document.getElementById("hover-sound");
+document.querySelectorAll(".setup-piece").forEach(piece => {
+  piece.addEventListener("mouseenter", () => {
+    sound.currentTime = 0; 
+    sound.play();
+  });
+});
+</script>
+
+</body>
+</html>
